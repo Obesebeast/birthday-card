@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, My Love!</title>
+  <style>
+    body {
+      font-family: 'Arial, sans-serif';
+      background-color: #ffe6f2;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background-color: #ff99cc;
+      padding: 20px;
+      color: white;
+    }
+    h1 {
+      font-size: 2.5em;
+    }
+    .message {
+      margin: 20px;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+    .photos {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px;
+    }
+    .photos img {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    button {
+      background-color: #ff66b2;
+      padding: 10px 20px;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #ff3385;
+    }
+    footer {
+      margin-top: 30px;
+      padding: 10px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Birthday, My Love! 🎉</h1>
+    <p>"I wish you could borrow my eyes for a moment, just so you could see the incredible woman I look at every day."</p>
+  </header>
+
+  <div class="photos">
+    <!-- Replace with your actual photos -->
+    <img src="photo1.jpg" alt="Photo 1">
+    <img src="photo2.jpg" alt="Photo 2">
+    <img src="photo3.jpg" alt="Photo 3">
+  </div>
+
+  <div class="message">
+    <p>"I promise to be a better man, just like how you've grown into an even better person than the year I met you."</p>
+    <p>Click below to reveal a surprise!</p>
+    <button onclick="revealMessage()">Click Me!</button>
+  </div>
+
+  <div id="hiddenMessage" style="display: none; margin-top: 20px;">
+    <h2>💖 I Love You! 💖</h2>
+    <p>You make every day brighter, and I can't wait to celebrate many more birthdays with you! 🥰</p>
+  </div>
+
+  <footer>
+    <p>Made with ❤️ by [Your Name]</p>
+  </footer>
+
+  <script>
+    // JavaScript to reveal the hidden message
+    function revealMessage() {
+      document.getElementById("hiddenMessage").style.display = "block";
+    }
+  </script>
+</body>
+</html>
